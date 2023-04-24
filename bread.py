@@ -3,7 +3,7 @@ import random
 import time
 
 # List of bread types
-bread_types = ["White Bread", "Whole Wheat Bread", "Sourdough Bread", "Rye Bread", "Multigrain Bread"]
+bread_types = ["Pumpernickel Bread", "Whole Wheat Bread", "Sourdough Bread", "Rye Bread", "Multigrain Bread"]
 
 # List of ingredients
 ingredients = ["Flour", "Water", "Yeast", "Salt", "Sugar", "Butter", "Milk"]
@@ -20,7 +20,7 @@ seeds = ["Sesame seeds", "Poppy seeds", "Sunflower seeds", "Pumpkin seeds"]
 # List of sweeteners
 sweeteners = ["Honey", "Maple syrup", "Molasses", "Agave syrup"]
 
-# Function to generate a random bread recipe
+# Generate random bread recipe
 def generate_recipe():
     bread_type = random.choice(bread_types)
     ingredient1 = random.choice(ingredients)
